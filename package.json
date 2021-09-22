@@ -1,0 +1,39 @@
+{
+  "name": "kryfios",
+  "version": "0.0.1",
+  "description": "Get your daily Discord needs fulfilled by Kryfios.",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node -r dotenv/config -r colors ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JannatinNaim/Kryfios.git"
+  },
+  "keywords": [
+    "Kryfios"
+  ],
+  "author": {
+    "email": "mail.jannatinnaim@gmail.com",
+    "name": "Jannatin Naim",
+    "url": "https://jannatinnaim.me/"
+  },
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/JannatinNaim/Kryfios/issues"
+  },
+  "homepage": "https://github.com/JannatinNaim/Kryfios#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "discord.js": "^13.1.0",
+    "dotenv": "^10.0.0",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-google": "^0.14.0"
+  },
+  "engines": {
+    "node": "16.9.1"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "logFile": "runtime.log",
+  "logDirectory": "logs",
+  "logTypeConfig": {
+    "info": { "color": "" },
+    "success": { "color": "green" },
+    "warn": { "color": "yellow" },
+    "error": { "color": "red" },
+    "debug": { "color": "magenta" }
+  },
+  "processTypeConfig": {
+    "node": { "color": "green" },
+    "discord": { "color": "blue" }
+  }
+}
